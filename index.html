@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maruboyani Govardhan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">Govardhan</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#internships">Internships</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Maruboyani Govardhan</h1>
+            <h2>Full Stack Developer & Web Developer</h2>
+            <p>Building robust web applications and innovative solutions</p>
+            <a href="documents/MaruboyaniGovardhanResume.pdf" download="MaruboyaniGovardhanResume.pdf" class="cta-button">Download Resume</a>
+        </div>
+        <div class="hero-image">
+            <img src="./images/v.jpeg" alt="Maruboyani Govardhan - Profile Image" onerror="this.onerror=null; console.log('Image failed to load'); this.src='./v.jpeg';">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I'm a passionate Full Stack Developer with a strong foundation in web development. As an ECE graduate from KSRMCE Kadapa, I combine my technical expertise with creative problem-solving skills to build efficient and user-friendly web applications.</p>
+            <ul class="achievements">
+                <li>🎓 B.Tech in Electronics and Communication Engineering from KSRMCE Kadapa</li>
+                <li>💻 Full Stack Development Expertise</li>
+                <li>🌐 Web Development Professional</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Real-time People Counting and Tracking System</h3>
+                <p>Developed an advanced computer vision system using NVIDIA Jetson Nano for real-time people counting and tracking in video streams.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>OpenCV</span>
+                    <span>NVIDIA Jetson</span>
+                    <span>Deep Learning</span>
+                </div>
+                <div class="project-details">
+                    <ul>
+                        <li>Implemented real-time object detection and tracking algorithms</li>
+                        <li>Utilized NVIDIA Jetson Nano's GPU capabilities for efficient processing</li>
+                        <li>Achieved accurate people counting in crowded scenarios</li>
+                    </ul>
+                </div>
+                <a href="https://drive.google.com/file/d/1e3AJAGaHYhQlJbjn0lQqDQ3Oc1lW94NL/view?usp=sharing" target="_blank" class="project-btn">View Publication Paper</a>
+            </div>
+            <div class="project-card">
+                <h3>CRM Application for Laptop Rentals</h3>
+                <p>Developed a comprehensive Customer Relationship Management system specifically designed for managing laptop rental operations.</p>
+                <div class="tech-stack">
+                    <span>Full Stack</span>
+                    <span>Database Design</span>
+                    <span>User Management</span>
+                    <span>Inventory Tracking</span>
+                </div>
+                <div class="project-details">
+                    <ul>
+                        <li>Implemented customer management and rental tracking system</li>
+                        <li>Built inventory management for laptop assets</li>
+                        <li>Created reporting and analytics dashboard</li>
+                        <li>Integrated payment processing and billing system</li>
+                    </ul>
+                </div>
+                <button class="project-btn">View Project</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships" class="internships">
+        <h2 class="section-title">Internships</h2>
+        <div class="internships-container">
+            <div class="internship-card">
+                <div class="internship-header">
+                    <h3>ExcelR</h3>
+                    <span class="duration">May 2024 - July 2024</span>
+                </div>
+                <h4>Prompt Engineering with ChatGPT</h4>
+                <div class="internship-details">
+                    <ul>
+                        <li>Specialized in developing effective prompting strategies for ChatGPT</li>
+                        <li>Gained expertise in AI interaction and natural language processing</li>
+                        <li>Worked on optimizing AI responses for various business applications</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="internship-card">
+                <div class="internship-header">
+                    <h3>Smart Interz</h3>
+                    <span class="duration">November 2024 - January 2025</span>
+                </div>
+                <h4>Salesforce Developer Virtual Internship</h4>
+                <div class="internship-details">
+                    <ul>
+                        <li>Developed and customized Salesforce applications</li>
+                        <li>Worked with Apex programming and Lightning components</li>
+                        <li>Gained hands-on experience with CRM development and implementation</li>
+                    </ul>
+                </div>
+                <a href="../certificates/Salesforce_govardhan.pdf" target="_blank" class="certificate-btn">
+                    <i class="fas fa-certificate"></i> View Salesforce Certificate
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">TECHNICAL SKILLS</h2>
+        <div class="skills-container">
+            <div class="skills-grid">
+                <div class="skill-category-card">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>Python Basics</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category-card">
+                    <h3>Frontend Technologies</h3>
+                    <ul class="skill-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category-card">
+                    <h3>Backend Technologies</h3>
+                    <ul class="skill-list">
+                        <li>Spring Boot</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category-card">
+                    <h3>Databases</h3>
+                    <ul class="skill-list">
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category-card">
+                    <h3>Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Postman</li>
+                        <li>Eclipse</li>
+                        <li>Spring Tool Suite (STS)</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://linkedin.com/in/maruboyani-govardhan-8286b7352" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="copyright">&copy; 2024 Maruboyani Govardhan. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
